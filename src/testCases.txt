@@ -1,0 +1,25 @@
+
+//Test cases provided by Spoke Phone:
+
+Test1 = '<A><B><C></C></B></A>' 
+//Expected Output: Correctly tagged paragraph
+
+Test2 = '<A>Test line 1</A><B> Test line 3</B>'
+//Expected Output: Correctly tagged paragraph
+
+//Test cases used from exercise specs:
+
+T1 = 'The following text<C><B>is centred and in boldface</B></C>';
+//Expected Output: Correctly tagged paragraph
+
+T2 = '<B>This <\g>is <B>boldface</B> in <<*> a</B> <\6> <<d>sentence';
+//Expected Output: Correctly tagged paragraph
+
+T3 = '<B><C> This should be centred and in boldface, but the tags are wrongly nested </B></C>';
+//Expected Output: Expected </C> found </B>
+
+T4 = '<B>This should be in boldface, but there is an extra closing tag</B></C>';
+//Expected Output: Expected # found </C>
+
+T5 = '<B><C>This should be centred and in boldface, but there is a missing closing tag</C>';
+//Expected Output: Expected </B> found #
