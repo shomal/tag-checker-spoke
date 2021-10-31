@@ -3,6 +3,7 @@ Tag checker script to check for valid tags in a given paragraph or sentence.
 
 Files provided:
 tag-checker-spoke/
+
 ├── README.md             # overview of the project
 └── src/                  # folder containing all code in the project
     ├── tagChecker.js     # script file for validating tags
