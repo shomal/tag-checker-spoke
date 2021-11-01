@@ -1,13 +1,8 @@
 # tag-checker-spoke
 Tag checker script to check for valid tags in a given paragraph or sentence.
 
-Files provided:
-tag-checker-spoke/
 
-|-README.md                 # overview of the project  
-|--src/                     # folder containing all code in the project    
-|   |--tagChecker.js        # script file for validating tags  
-|   |--testCases.txt        # text file containing test cases used during development and testing     
+![project file structure](https://github.com/shomal/tag-checker-spoke/blob/main/resources/file_structure.PNG?raw=true)    
     
     
 How to run:
