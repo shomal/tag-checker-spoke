@@ -23,7 +23,7 @@ function getMatchingTag(tag) {
  * @returns result whether tags are correct or not.
  */
 function validateTag(paragraph) {
-    if (paragraph.length == 0 || paragraph === undefined) {
+    if (paragraph === undefined || paragraph === null || paragraph.length === 0) {
         return 'Please enter a sentence or paragraph';
     }
 
@@ -67,17 +67,8 @@ function validateTag(paragraph) {
     }
 }
 
-/*****************************************************************************************************************/ 
-/**
- *  Main
- *  Replace the empty string below with a paragraph or sentence to run this program.
- *  An example test case provided below.
- */
-/*****************************************************************************************************************/ 
-
-let inputParagraph = '';                                                //Replace '' with a paragraph
-
+//let inputParagraph = '';                                                //Replace '' with a paragraph
 //inputParagraph = '<A><B><C>This is a test paragraph.</C></B></A>'; 
+//console.log(validateTag(inputParagraph));
 
-console.log(validateTag(inputParagraph));
-
+module.exports = validateTag

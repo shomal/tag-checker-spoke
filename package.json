@@ -1,0 +1,23 @@
+{
+  "name": "tag-checker-spoke",
+  "version": "1.0.0",
+  "description": "Tag checker script to check for valid tags in a given paragraph or sentence.",
+  "main": "tagChecker.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shomal/tag-checker-spoke.git"
+  },
+  "keywords": [],
+  "author": "Shomal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shomal/tag-checker-spoke/issues"
+  },
+  "homepage": "https://github.com/shomal/tag-checker-spoke#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
