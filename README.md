@@ -6,8 +6,9 @@ Tag checker script to check for valid tags in a given paragraph or sentence.
     
     
 How to run:
-1. Download 'tagChecker.js' file and navigate to the downloaded notification.
-2. Open file with a code editor e.g. Notepad++, VS Code..
-3. Replace '' with a paragraph or sentence in line 78 of tagChecker.js. [This is the paragraph to check tags for]
-4. Type node .\tagChecker.js in the terminal to run.
+1. Clone this project into a folder and navigate to the folder.
+2. Run 'npm start' in terminal to install dependencies
+3. Run 'npm test' in terminal to run the unit tests.
 
+Dependencies:
+Jest: 27.3.1
